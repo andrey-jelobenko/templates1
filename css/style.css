@@ -21,12 +21,22 @@ body {
   margin: 0 auto;
 }
 
-.moreOnFigma {
+.templates {
+  background: red;
+  position: relative;
+  top: -55px;
+}
+
+.moreOnFigma,
+.githubPages {
   text-decoration: none;
   color: darkgrey;
   font-size: 11px;
   position: absolute;
-  top: 0;
+}
+
+.githubPages {
+  right: 0;
 }
 
 .about__header,
