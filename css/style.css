@@ -313,9 +313,14 @@ body {
 }
 
 .howIwork__intro {
-  background: url(../img/howIwork.png) no-repeat center;
-  padding: 25.6% 0%;
+  position: relative;
   margin: 0 auto;
+}
+
+.howIwork__intro-img {
+  position: absolute;
+  left: 555px;
+  top: 250px;
 }
 
 .howIwork__intro-img:hover {
