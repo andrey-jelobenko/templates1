@@ -317,10 +317,14 @@ body {
   margin: 0 auto;
 }
 
+.howIwork__intro-video {
+  width: 100%;
+}
+
 .howIwork__intro-img {
   position: absolute;
-  left: 555px;
-  top: 250px;
+  left: calc(50% - 30px);
+  top: 40%;
 }
 
 .howIwork__intro-img:hover {
@@ -653,6 +657,9 @@ body {
   #burger:not(checked) ~ .header__menu-nav,
   #burger:checked ~ .header__menu-burger {
     display: none;
+  }
+  .howIwork__intro-img {
+    top: 33%;
   }
 }
 /*# sourceMappingURL=style.css.map */

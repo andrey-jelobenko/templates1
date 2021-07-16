@@ -286,10 +286,14 @@ body {
         margin: 0 auto;
     }
 
+    &__intro-video {
+        width: 100%;
+    }
+
     &__intro-img {
         position: absolute;
-        left: 555px;
-        top: 250px;
+        left: calc(50% - 30px);
+        top: 40%;
     }
 
     &__intro-img:hover {
@@ -584,5 +588,9 @@ body {
         #burger:checked ~ .header__menu-burger
          {
             display: none;
+        }
+
+        .howIwork__intro-img {
+            top: 33%;
         }
     }
